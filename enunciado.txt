@@ -1,0 +1,25 @@
+Enunciado:
+
+Crea una clase llamada Biblioteca que tenga los siguientes atributos y métodos:
+
+Atributos:
+
+libros: Un array que almacena objetos de la clase Libro.
+nombre: El nombre de la biblioteca (cadena de texto).
+Métodos:
+
+__construct($nombre): Constructor que recibe el nombre de la biblioteca y lo asigna al atributo correspondiente. Además, inicializa el array de libros.
+
+agregarLibro(Libro $libro): Método que recibe un objeto Libro y lo agrega al array de libros de la biblioteca.
+
+buscarLibroPorTitulo($titulo): ?Libro: Método que recibe el título de un libro y busca en el array de libros de la biblioteca. Si encuentra un libro con el título dado, devuelve el objeto Libro; de lo contrario, devuelve null.
+
+mostrarCatalogo(): Método que muestra en la pantalla el catálogo de libros de la biblioteca, incluyendo el título y el autor de cada libro.
+
+Crea también una clase llamada Libro con los siguientes atributos:
+
+titulo: El título del libro (cadena de texto).
+autor: El autor del libro (cadena de texto).
+Implementa el script index.php que crea una instancia de Biblioteca y varios objetos Libro, los agrega a la biblioteca y realiza algunas operaciones como buscar libros por título y mostrar el catálogo en la pantalla.
+
+Este enunciado te permitirá practicar la creación de clases, la gestión de objetos dentro de arrays, y las operaciones básicas de búsqueda y visualización de datos. ¡Espero que te resulte útil! Estoy aquí para ayudarte si tienes alguna pregunta.
